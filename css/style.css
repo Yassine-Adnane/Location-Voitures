@@ -1,0 +1,786 @@
+/***************************************Start My Framwork***************************************/
+
+.C-Best
+{
+    color: #FFF;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.C-Car
+{
+    color: #f9ed69 !important ;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.Fram-Div
+{
+    padding-top: 80px;
+}
+
+.Fram-P
+{
+    line-height: 1.8;
+    font-size: 24px;
+    color: black;
+    margin-bottom: 40px;
+    text-align: left;
+    margin-top: 5px;
+    font-family: 'Heebo', sans-serif;
+}
+
+/***************************************End My Framwork***************************************/
+
+
+/***************************************Start Navbar***************************************/
+.navbar 
+{
+    background-color: black !important;
+}
+
+.navbar-light .navbar-toggler 
+{
+    background-color: #FFF !important;
+}
+
+.navbar .nav-link
+{
+    font-size: 19px;
+    margin-left: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #FFF !important;
+}
+/***************************************End Navbar***************************************/
+
+/*************************************** Start Slider ***************************************/
+
+.slider .carousel-inner h1
+{
+    position: absolute;
+    color: #FFF;
+    z-index: 3;
+    font-size: 72px;
+    max-width: 800px;
+    line-height: 1.6;
+    left: 100px;   
+    right: 100px;
+}
+
+.slider .carousel-inner .overlay
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .7);
+    z-index: 2;
+}
+
+.slider .carousel-indicators li 
+{
+    height: 8px;
+    cursor: pointer;
+}
+
+.slider .carousel-inner
+{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.slider .carousel-inner h1 span
+{
+    color: #FFF;
+    background-color: #ec1c23;
+    display: inline-block;
+    padding: 0px 6px;
+}
+
+.slider .carousel-item
+{
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+
+.slider .carousel-1
+{
+    background-image: url('../images/slider/M1.webp');
+}
+
+.slider .carousel-2
+{
+    background-image: url('../images/slider/M2.webp');
+}
+.slider .carousel-3
+{
+    background-image: url('../images/slider/M3.webp');
+}
+
+.slider .carousel-4
+{
+    background-image: url('../images/slider/M4.webp');
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .slider .carousel-inner h1
+    {
+        font-size: 69px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+    .slider .carousel-inner h1
+    {
+        font-size: 51px;
+    }
+}
+
+@media  (min-width: 320px) and (max-width: 575px)
+{
+    .slider .carousel-inner h1
+    {
+        font-size: 40px;
+        max-width: 800px;
+        line-height: 1.6;
+        left: 50px;
+        right: 55px;
+    }
+}
+
+/*************************************** End Slider ***************************************/
+
+
+/*************************************** Start About us ***************************************/
+
+
+
+.Propos .Text_Description_About
+{
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+}
+
+.Propos .Title-Section
+{
+    color: #e74c3c;
+}
+
+
+@media (min-width: 992px) and (max-width: 1999px)
+{
+   
+    .Propos .Text_Description_About
+    {
+        font-size: 24px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .Propos .Text_Description_About
+    {
+        font-size: 23px !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+    .Propos .Text_Description_About
+    {
+        font-size: 19px !important;
+    }
+}
+
+@media  (min-width: 320px) and (max-width: 575px)
+{
+    .Fram-P
+    {
+        font-size: 18px !important;
+    }
+
+    .Propos .Text_Description_About
+    {
+        font-size: 18px !important;
+    }
+
+    .Propos .Title-Section
+    {
+        font-size: 37px !important;
+    }
+}
+/*************************************** End About us ***************************************/
+
+/*************************************** Start Nos Garage ***************************************/
+
+.voitures .Title-Section 
+{
+    padding-top: 20px;
+}
+
+.voitures .Text_Description_voitures
+{
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+}
+
+
+@media (min-width: 992px) and (max-width: 1999px)
+{
+   .voitures .Text_Description_voitures
+   {
+        font-size: 21px !important;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .voitures .Text_Description_voitures
+    {
+        font-size: 23px !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+
+    .voitures .Title-Section
+    {
+        font-size: 51px !important;
+    }
+
+    .voitures .Text_Description_voitures
+    {
+        font-size: 22px !important;
+    }
+}
+
+@media  (min-width: 320px) and (max-width: 575px)
+{
+    
+    .voitures .Title-Section
+    {
+        font-size: 43px !important;
+        margin-top: 30px !important;
+    }
+
+    .voitures .Text_Description_voitures
+    {
+        font-size: 22px !important;
+    }
+
+}
+
+.card
+{
+    margin-top: 10px !important;
+}
+
+.voitures .btn-primary
+{
+    width: 100% !important;
+    color: #fff !important;
+}
+
+.popup
+{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: rgba(53, 45, 45, 0.8);
+    display: none;
+}
+
+
+.popup .inner 
+{
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    padding: 20px;
+    width: 500px;
+    height: 340px;
+    left: 50%;
+    position: fixed;
+    margin-left: -250px;
+    top: 50%;
+    margin-top: -170px;
+    border-radius: 5px;
+    
+}
+
+.popup .Button-show
+{
+    cursor: pointer;
+}
+
+.Button-show
+{
+    cursor: pointer;
+}
+
+
+.div-btn-Quitter
+{
+    text-align: right !important;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .voitures .StyleDecouv
+    {
+        margin-left: 70px !important;
+        margin-right: 70px !important;
+    }
+}
+
+.voitures .jumbotron
+{
+    margin-bottom: 0px !important;
+}
+
+@media (min-width: 320px) and (max-width: 575px)
+{
+    
+    .popup .inner {
+        background-color: #FFF;
+        border: 1px solid #CCC;
+        padding: 20px;
+        width: 285px;
+        height: 520px;
+        left: 50%;
+        position: fixed;
+        margin-left: -140px;
+        top: 41%;
+        margin-top: -170px;
+        border-radius: 5px;
+    }
+
+}
+
+
+/*************************************** End Nos Garage ***************************************/
+
+
+/*************************************** Start Services ***************************************/
+
+.Services
+{
+    background-color: #2c2e37;
+    color: #FFF;
+    padding-bottom: 20px !important;
+}
+
+.Services .Title-Section 
+{
+    padding-top: 85px;
+}
+
+#more {display: none;}
+#more2 {display: none;}
+#more3 {display: none;}
+#more4 {display: none;}
+
+
+
+.styleservices
+{
+    margin-top: 30px !important;
+    margin-bottom: 60px !important;
+}
+
+.Services .jumbotron
+{
+    margin-bottom: 0px !important;
+    background-color: #e64747;
+}
+
+
+
+.Services .btn-primary 
+{
+    width: 100% !important;
+    color: #fff !important;
+    background-color: #121325 !important;
+}
+
+
+.wrap {
+    display: flex;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 7px 7px 30px -5px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+    background: linear-gradient(135deg,#170f0f 0%,#0a193b 100%);
+    color: white;
+    cursor: pointer;
+}
+
+.ico-wrap {
+    margin: auto;
+}
+
+.mbr-iconfont {
+    font-size: 3rem !important;
+    color: #FFF;
+    margin: 1rem;
+    padding-right: 1rem;
+}
+
+
+.vcenter {
+    margin: auto;
+}
+
+.mbr-section-title3 {
+    text-align: left;
+}
+h2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.display-5 {
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 1.4rem;
+}
+.mbr-bold {
+    font-weight: 700;
+}
+
+ p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    line-height: 25px;
+}
+.display-6 {
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 1re}
+
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+    .Services .Title-Section
+    {
+        font-size: 52px !important;
+    }
+}
+
+@media  (min-width: 320px) and (max-width: 575px)
+{
+    .Services .Title-Section
+    {
+        font-size: 45px !important;
+    }
+
+    .styleservices
+    {
+        margin-top: 10px !important;
+        margin-bottom: 20px !important;
+    }
+}
+/*************************************** End Services ***************************************/
+
+/*************************************** Start Marques ***************************************/
+.ModelsCars 
+{
+    background-color: #263f44;
+    font-family: 'Roboto', sans-serif !important;
+    font-style: italic !important;
+    color: #FFF;
+    margin-top: 7px !important;
+}
+
+.partner
+{
+    margin:auto;
+}
+
+.partner ul
+{
+    margin-top: 80px !important;
+    margin-bottom: 80px !important;
+    font-weight: bold !important;
+}
+
+.partner li 
+{
+    list-style: none;
+    display: inline-block;
+    
+}
+
+.partner .ST
+{
+    margin-left: 30px !important;
+}
+
+.partner .SM
+{
+    margin-right: 10px !important;
+}
+
+
+@media (min-width: 1200px)
+{
+    .partner li
+    {
+        font-size: 35px !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px)
+{
+    .partner li
+    {
+        font-size: 28px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .partner li
+    {
+        font-size: 20px !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+    .partner li
+    {
+       
+        font-size: 18px !important;
+    }
+
+    .partner .ST
+    {
+        margin-left: 5px !important;
+    }
+
+    .partner .SM
+    {
+        margin-right: 5px !important;
+    }
+}
+
+@media  (min-width: 320px) and (max-width: 575px)
+{
+    .partner.visible
+    {
+        display: none;
+    }
+    
+}
+/*************************************** End Marques ***************************************/
+
+/*************************************** Start Avis ***************************************/
+
+.feedback 
+{
+    background-color: #eaecef;
+    padding-bottom: 20px;
+}
+
+.feedback .Title-Section
+{
+    padding-top: 30px !important;
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1999px)
+{
+
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+
+}
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+    .feedback .Name-Avis
+    {
+        font-size: 19px ;
+    }
+}
+
+@media  (min-width: 320px) and (max-width: 575px)
+{
+    .feedback .Title-Section {
+        font-size: 45px !important;
+    }
+}
+
+/*************************************** End Avis ***************************************/
+
+/*************************************** Start Contact ***************************************/
+
+.contact
+{
+    background-color: #263f44;
+    color: #FFF;
+    padding-top: 70px !important;
+}
+
+.contact .Title-Section
+{
+    padding-bottom: 25px; 
+}
+
+.sizeH2Contact
+{
+    font-size: 26px !important;
+}
+
+.contact ul a
+{
+    color: #CCC;
+    font-weight: bold;
+    
+}
+
+.contact ul  
+{
+    list-style: disc;
+}
+
+.contact .my-1
+{
+    background-color: #FFF;
+}
+
+.styleFrame
+{
+    overflow: hidden;
+    border-radius: 4% !important;
+}
+
+@media (min-width: 992px) and (max-width: 1999px)
+{
+
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .sizeH2Contact 
+    {
+        font-size: 22px !important;
+    }
+
+    
+}
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+    .contact .Plusd
+    {
+        margin-left: 25px !important;
+    }
+}
+
+@media  (min-width: 320px) and (max-width: 575px)
+{
+    .contact .Title-Section
+    {
+        font-size: 37px !important;
+    }
+
+    .contact .Plusd
+    {
+        margin-left: 25px !important;
+    }
+}
+
+/*************************************** End Contact ***************************************/
+
+/*************************************** Start CopyRight ***************************************/
+.CopyRight
+{
+    background-color: black;
+    padding: 10px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .CopyRight .devlopper
+    {
+        text-align: center !important;
+        font-size: 15px;
+    }
+
+    .CopyRight .CrécheCopyRight
+    {
+        padding-top: 3px;
+        text-align: left!important;
+        font-size: 12px;
+    }
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+    .CopyRight .devlopper
+    {
+        text-align: center !important;
+    }
+
+    .CopyRight .CrécheCopyRight
+    {
+        padding-top: 3px;
+        text-align: center !important;
+        font-size: 14px;
+    }
+}
+
+/*********************************************/
+@media (min-width: 336px) and (max-width: 575px)
+{
+    .CopyRight .devlopper
+    {
+        text-align: center !important;
+        font-size: 12px !important;
+    }
+
+    .CopyRight .CrécheCopyRight
+    {
+        padding-top: 3px;
+        text-align: center !important;
+        font-size: 10px !important;
+    }
+}
+/**********************************************/
+
+@media  (min-width: 320px) and (max-width: 335px)
+{
+    .CopyRight .CrécheCopyRight
+    {
+        font-size: 10px !important;
+    }
+
+    .CopyRight .devlopper
+    {
+        font-size: 12px !important;
+        text-align: left !important;
+    }
+}
+
+/*End CopyRight*/
+/**************************************************/
+
+
